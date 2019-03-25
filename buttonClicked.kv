@@ -5,20 +5,14 @@ TextWidget:
         orientation: 'vertical'
         size: root.size
 
-        # TEXT LABEL
+        # ラベル
         Label:
             id: label1
-            font_size: 50
+            font_size: 68
             text: root.text
-
-        # NUM LABEL
-        Label:
-            id: label2
-            font_size: 50
-            text: str(root.time)
 
         Button:
             id: button1
-            text: "STOP"
-            font_size: 50
+            text: "OK"
+            font_size: 68
             on_press: root.clicked()
