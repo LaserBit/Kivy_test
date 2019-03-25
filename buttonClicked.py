@@ -18,9 +18,9 @@ class TextWidget(Widget):
             self.text = ''
 
 
-class TestApp(App):
+class buttonClickedAPP(App):
     def __init__(self, **kwargs):
-        super(TestApp, self).__init__(**kwargs)
+        super(buttonClickedAPP, self).__init__(**kwargs)
         self.title = 'TESTING'  # ウィンドウの名前を変更
 
     def build(self):
@@ -28,4 +28,4 @@ class TestApp(App):
 
 
 if __name__ == '__main__':
-    TestApp().run()
+    buttonClickedAPP().run()
