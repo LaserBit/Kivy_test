@@ -1,0 +1,24 @@
+TextWidget:
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        # TEXT LABEL
+        Label:
+            id: label1
+            font_size: 50
+            text: root.text
+
+        # NUM LABEL
+        Label:
+            id: label2
+            font_size: 50
+            text: str(root.time)
+
+        Button:
+            id: button1
+            text: "STOP"
+            font_size: 50
+            on_press: root.clicked()
